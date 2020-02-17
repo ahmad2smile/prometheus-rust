@@ -4,11 +4,10 @@
 extern crate rocket;
 
 pub mod jobs;
+pub mod routes;
 
-use jobs::controller;
+use routes::root;
 
 fn main() {
-    rocket::ignite()
-        .mount("/", routes![controller::get])
-        .launch();
+    root().launch();
 }
