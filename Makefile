@@ -1,2 +1,2 @@
 start-api:
-	systemfd --no-pid -s http::3000 -- cargo watch -x run
+	cargo watch -w ./api -s "cargo run --bin api"

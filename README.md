@@ -1,7 +1,7 @@
 # Prometheus - Cool Jobs Finder
 
-## Actix Web (API)
+## Rocket (API)
 
 #### Features:
 
--   Auto reload with `systemfd`
+-   (WIP)
