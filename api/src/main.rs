@@ -3,6 +3,9 @@
 #[macro_use]
 extern crate rocket;
 
+#[cfg(test)]
+mod e2e;
+
 pub mod jobs;
 pub mod routes;
 
